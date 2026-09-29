@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+/* 
+  pseudo classes 
+
+.container{
+    height: 90%;
+    width: 40%;
+    background-color: aliceblue;
+}
+.box{
+    height: 20%;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.box:first-child{
+    background-color: teal;
+}
+
+
+
+.box:nth-child(2){
+    background-color: yellow;
+}
+.box:nth-child(3){
+    transition: all 0.5s ease-in-out;
+    transform: rotatey(180deg);
+    background-color: rgb(182, 182, 150);
+}
+.box:nth-child(4){
+    background-color: rgb(162, 214, 120);
+    transform: translate( 100px ,0);
+}
+ .box:nth-child(2n-1){
+    background-color: red;} 
+
+    button{
+        height: 35px;
+        width: 100%;
+        transition: 1s ;
+
+    }
+     input{
+        height: 35px;
+        width: 95%;
+        margin-top: 10px;
+        padding-left: 20px;
+        outline: none;
+    }
+
+    button:hover{
+        background-color: red;
+        color: white;
+    }
+    input:focus{
+        border: 3px solid slategray;
+    }
+    
+    #box-3:hover{
+        transform: scale(1.2);
+}
+      */
+
+
+   
+  .parent{
+    height: 300px;
+    width: 80%;
+    background-color: rgb(255, 8, 8);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  } 
+  .child{
+    height:30%;
+    width: 30%;
+    background-color: rgb(255, 255, 0);
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }
+

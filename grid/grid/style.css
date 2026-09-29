@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/*  
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+}
+     gap: 5px; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    /* "top-center top-center top-center"
+    "left-center  center-bottom right-center"
+    "left-bottom  center-bottom right-bottom";
+}
+.top-center{
+    background-color: red;
+    grid-area: top-center;
+}
+.left-center{
+    background-color: green;
+    grid-area: left-center;
+}
+.left-bottom{
+    background-color: orange;
+    grid-area: left-bottom;
+}
+.center-bottom{
+    background-color: blue;
+    grid-area: center-bottom;
+}
+.right-center{
+    background-color: yellow;
+    grid-area: right-center;
+}
+.right-bottom{
+    background-color: purple;
+    grid-area: right-bottom;
+} */
+
+
+
+/* 
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  display: grid;
+    grid-template-columns: 20% 30% 25% 25%; /* Adjusted column widths for better alignment 
+     gap: 2px;
+    grid-template-rows: 10% 60% 30%;
+    grid-template-areas:
+    "header header header header"
+    "left-center left-center right"
+    "left-bottom1 left-bottom2 right";  
+}
+.header{
+    background-color: red;
+    grid-area: header;
+}
+.left-center{
+    background-color: blue;
+    grid-area: left-center;
+}
+ .right{
+        background-color: green;
+        grid-area: right;
+    }   
+    .left-bottom1{
+        background-color: yellowgreen;
+        grid-area:left-bottom1 ;
+    }
+    .left-bottom2{
+        background-color: yellow;
+        grid-area:left-bottom2 ;
+    } */
+
+
+
+
+
+
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+    display: grid;
+    grid-template-columns: 20% 30% 25% 25%;
+    grid-template-rows: 10% 15% 60% 15%;
+    grid-template-areas: 
+        "header header header header"
+        "center center center center"
+        "left left right right"
+        "lef bottom-left  bottom-center bottom-right";
+}
+
+header{
+    background-color: aquamarine;
+    grid-area: header;
+}
+.center{
+    background-color: rgb(145, 53, 53);
+    grid-area: center;
+}
+.left{
+    background-color: cornflowerblue;
+    grid-area: left;
+}
+.right{
+    background-color: chartreuse;
+    grid-area: right;
+}
+.bottom-left{
+    background-color: burlywood;
+    grid-area: bottom-left;
+}
+.bottom-center{
+    background-color: gold;
+    grid-area: bottom-center;
+}
+.bottom-right{
+    background-color: orchid;
+    grid-area: bottom-right;
+} */
+
+
+
+
+
+
+ 
+ main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75% 25%;
+ }
+ .left{
+    background-color: blue;
+ }
+ .right{
+    background-color: bisque;
+ }
+ .center{
+    background-color: aquamarine;
+ }
+ footer{
+    background-color: blueviolet;
+ }

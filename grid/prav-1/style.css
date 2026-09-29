@@ -1,0 +1,63 @@
+/* Ensure parent containers have a defined height */
+main {
+    width: 100%;
+    height: 100%; /* Set to viewport height */
+    background-color: #FBFBFB;
+}
+#section1{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header i{
+    font-size: 30px;
+}
+.header h1{
+    font-size: 30px;
+}
+.links {
+    display: flex;
+    gap:  35px;
+    width: calc(100% - 50%);
+    justify-content: center;
+}
+.links a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.btn button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn button:nth-child(2){
+    background-color: black;
+    color: white;
+}
+
+.hero-div{
+    width: 100%;
+    height: calc(100% - 50px);
+    /* height: 400px; */
+    background-color: rgb(255, 6, 6);
+}

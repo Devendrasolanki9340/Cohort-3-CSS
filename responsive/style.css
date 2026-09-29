@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+/* div{
+    height: 50vh;
+    width: 50vw;
+    font-size: 20px;
+    background-color: plum;
+}
+p{
+    font-size: 2rem;
+    color: white;
+}
+span{
+    font-size: 4rem;
+    color: white;
+} */
+
+
+div{
+    height: 20vmax;
+    width: 30vmax;
+    background-color: lightblue;
+}
+p{
+    font-size: 3vmin;
+    color: white;
+}

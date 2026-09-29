@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%; 
+    background-color: #FBFBFB;
+        font-size: 30px;
+        gap: 1px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: "thirteen fourteen fiveteen sixteen"
+                        "left top-left  top-right right"
+                        "bottom-left center top-right right"
+                        "bottom-left top-bottom bottom-right bottom-right"
+                        "bottom-left down-bottom bottom-right bottom-right" ;
+}
+
+.thirteen{
+    background-color: rgb(6, 164, 255);
+    }
+.fourteen{
+    background-color: rgb(6, 164, 255);
+    }
+.fiveteen{
+    background-color: rgb(6, 164, 255);
+    }        
+.sixteen{
+    background-color: rgb(6, 164, 255);
+    }
+.one{
+    background-color: rgb(51, 156, 95);
+    grid-area: left;
+}
+.two{
+    background-color: rgb(87, 31, 31);
+    grid-area: top-left;
+}
+.three{
+    background-color: rgb(218, 6, 255);
+    grid-area: top-right;
+}
+.four{
+    background-color: rgb(14, 14, 85);
+    grid-area: right;
+}
+.five{
+    background-color: rgb(120, 93, 93);
+    grid-area: bottom-left;
+}
+.six{
+    background-color: rgb(33, 67, 234);
+    grid-area: center;
+}
+.seven{
+     background-color: rgba(93, 23, 23, 0.336);
+     grid-area: right-center;
+}
+.eight{
+    background-color: rgb(6, 164, 255);
+    grid-area: top-bottom;
+}
+.nine{
+    background-color: goldenrod;
+    grid-area: down-bottom;
+}
+.ten{
+    background-color: rgb(6, 164, 255);
+    grid-area: bottom-right;
+}
